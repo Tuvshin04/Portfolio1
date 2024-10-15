@@ -78,6 +78,15 @@
   }
 }
 
+@keyframes example {
+  from {
+    filter: blur(40px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+
 @layer utilities {
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
@@ -85,5 +94,10 @@
 
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  }
+
+  .test {
+    animation-name: example;
+    animation-duration: 2s;
   }
 }
