@@ -80,7 +80,7 @@
 
 @keyframes example {
   from {
-    filter: blur(40px);
+    filter: blur(20px);
   }
   to {
     filter: blur(0px);
@@ -99,5 +99,6 @@
   .test {
     animation-name: example;
     animation-duration: 2s;
+    transition: ease-out;
   }
 }
