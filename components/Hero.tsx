@@ -34,22 +34,22 @@ const Hero = () => {
         </div>
         <div className="flex justify-between items-center">
           <h3 className="uppercase tracking-widest text-3xl text-center text-blue-100 max-w-80 lg:max-w-[400px] lg:flex lg:justify-start lg:flex-col lg:items-center">
-            Tuvshin's Portfolio
+            Tuvshin s Portfolio
           </h3>
         </div>
-        <div className="mt-[200px]  ">
+        <div className="">
           <div className="h-fit">
             <div className=" w-full dark:bg-black bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2]  flex items-center justify-center absolute top-0 left-0">
               <div className=" absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
             </div>
-            <div className="flex justify-between gap-5">
+            <div className="md:flex md:flex-row flex-col justify-between items-center gap-5">
               <div className="max-w-[89vw] md:max-w-20 lg:max-w[60vw] flex flex-col justify-center items-start ">
                 <h1 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 lg:max-w-[400px] lg:flex lg:justify-start lg:flex-col lg:items-center">
                   <TextGenerateEffect
                     duration={1}
                     filter={true}
                     words={words}
-                    className="text-center text-[40px] lg:w-[300px] md:w-[300px]"
+                    className="text-center text-[40px] sm:flex sm:justify-center  lg:w-[300px] md:w-[300px]"
                   />
                   <TextGenerateEffect
                     duration={1}
@@ -59,38 +59,38 @@ const Hero = () => {
                   />
                 </h1>
               </div>
-              <div>
-                <Avatar />
+              <div className="w-[600px]">
+                <GlobeDemo />
               </div>
             </div>
-            <div>
+            <div className="">
               <div className="flex justify-center items-center mt-[100px] ">
-                <h3 className="text-2xl font-thin text-blue-100">About Me</h3>
+                <h3 className="text-2xl font-medium text-blue-100">About Me</h3>
               </div>
-              <div className="mt-[10px] flex justify-around items-center  ">
+              <div className="mt-[90px] flex flex-col gap-5 sm:flex-row md:flex-row sm:justify-around justify-center items-center  ">
                 <div>
                   <TextGenerateEffect
                     duration={1}
                     filter={true}
                     words={words2}
-                    className="uppercase tracking-widest text-xl  text-white max-w-80 lg:max-w-[400px] lg:flex lg:justify-start lg:flex-col lg:items-center"
+                    className=" font-light tracking-widest text-xl  text-white max-w-80 lg:max-w-[400px] lg:flex lg:justify-start lg:flex-col lg:items-center"
                   />
-                  <div className="flex justify-start gap-5 items-center mt-[30px]">
+                  <div className="flex justify-center sm:justify-start md:justify-start gap-5 items-center   mt-[30px]">
                     <div className="avatar">
-                      <div className="w-[100px] rounded-full">
+                      <div className="w-[50px] sm:w-[100px] rounded-full">
                         <img src="https://instagram.fuln8-1.fna.fbcdn.net/v/t1.15752-9/462548464_1053133256078031_5498301594125719827_n.jpg?stp=dst-jpg_s403x403&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=pDyjVaztBdQQ7kNvgEIytmM&_nc_zt=23&_nc_ht=instagram.fuln8-1.fna&_nc_gid=ADxPwHg-K_2TZnBegNr6LKh&oh=03_Q7cD1QHpmjr8Gy_bZkpPQUz-iBl6bDCOFIdTV8Ku2iGLmOhTCw&oe=67350DD8" />
                       </div>
                     </div>
-                    <div className="border-2 w-[200px] border-blue-500"></div>
+                    <div className="border-2 w-[100px] sm:w-[200px] border-blue-500"></div>
                     <div className="avatar">
-                      <div className="w-[100px] rounded-full">
+                      <div className="w-[50px] rounded-full sm:w-[100px]">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4CiTFpFgtgX6gfMv1ILNcPgDic__3g2ukVw&s" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="w-[600px] ">
-                  <GlobeDemo />
+                <div>
+                  <Avatar />
                 </div>
               </div>
             </div>
@@ -114,8 +114,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };
