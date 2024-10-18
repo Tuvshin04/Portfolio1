@@ -1,7 +1,7 @@
 const SkillSVG = () => {
   return (
-    <div className="flex justify-around items-center mt-[100px]">
-      <div>
+    <div className=" grid grid-cols-2   sm:flex sm:justify-between  mt-[100px] ">
+      <div className="flex justify-center">
         <svg
           width="71"
           height="100"
@@ -56,7 +56,7 @@ const SkillSVG = () => {
           </defs>
         </svg>
       </div>
-      <div>
+      <div className="flex justify-center">
         <svg
           width="91"
           height="100"
@@ -102,7 +102,7 @@ const SkillSVG = () => {
           </defs>
         </svg>
       </div>
-      <div>
+      <div className="flex justify-center">
         <svg
           width="88"
           height="100"
@@ -128,7 +128,7 @@ const SkillSVG = () => {
           </defs>
         </svg>
       </div>
-      <div>
+      <div className="flex justify-center">
         <svg
           width="66"
           height="100"
@@ -172,7 +172,7 @@ const SkillSVG = () => {
           </defs>
         </svg>
       </div>
-      <div>
+      <div className="flex justify-center">
         <svg
           width="106"
           height="100"
@@ -230,7 +230,7 @@ const SkillSVG = () => {
           </defs>
         </svg>
       </div>
-      <div>
+      {/* <div className="flex justify-center">
         <svg
           width="85"
           height="100"
@@ -269,8 +269,8 @@ const SkillSVG = () => {
             </clipPath>
           </defs>
         </svg>
-      </div>
-      <div>
+      </div> */}
+      <div className="flex justify-center">
         <svg
           width="102"
           height="100"
