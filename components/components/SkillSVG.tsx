@@ -1,6 +1,6 @@
 const SkillSVG = () => {
   return (
-    <div className=" grid grid-cols-2   sm:flex sm:justify-between  mt-[100px] ">
+    <div className=" grid grid-cols-2  gap-10 sm:flex sm:justify-between  mt-[100px] ">
       <div className="flex justify-center">
         <svg
           width="71"

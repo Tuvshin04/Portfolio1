@@ -6,9 +6,7 @@ const Footer = () => {
   return (
     <div className="mt-[100px]">
       <footer className="footer footer-center bg-black text-base-content rounded p-10">
-        <nav className="grid grid-flow-col gap-4">
-          <h2 className="link link-hover">Contact</h2>
-        </nav>
+        <nav className="grid grid-flow-col gap-4"></nav>
         <nav>
           <Link href="https://github.com/TUvshin00">
             <div className="grid grid-flow-col gap-4">

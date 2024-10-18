@@ -1,6 +1,5 @@
 import Avatar from "./components/Avatar";
 import Footer from "./components/Footer";
-import Menu from "./components/Menu";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { GlobeDemo } from "./components/Glob";
@@ -34,7 +33,7 @@ const Hero = () => {
         </div>
         <div className="flex justify-between items-center">
           <h3 className="uppercase tracking-widest text-3xl text-center text-blue-100 max-w-80 lg:max-w-[400px] lg:flex lg:justify-start lg:flex-col lg:items-center">
-            Tuvshin s Portfolio
+            Modern Portfolio
           </h3>
         </div>
         <div className="">
@@ -42,7 +41,7 @@ const Hero = () => {
             <div className=" w-full dark:bg-black bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2]  flex items-center justify-center absolute top-0 left-0">
               <div className=" absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
             </div>
-            <div className="md:flex md:flex-row flex-col justify-between items-center gap-5">
+            <div className="md:flex md:flex-row flex-col justify-between items-center gap-5 mt-[200px]">
               <div className="max-w-[89vw] md:max-w-20 lg:max-w[60vw] flex flex-col justify-center items-start ">
                 <h1 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 lg:max-w-[400px] lg:flex lg:justify-start lg:flex-col lg:items-center">
                   <TextGenerateEffect
@@ -59,7 +58,7 @@ const Hero = () => {
                   />
                 </h1>
               </div>
-              <div className="w-[600px]">
+              <div className="w-[600px] mt-[50px]">
                 <GlobeDemo />
               </div>
             </div>
@@ -96,7 +95,7 @@ const Hero = () => {
             </div>
             <div>
               <div className="flex justify-center items-center mt-[200px]">
-                <h3 className="text-2xl font-thin text-blue-100">Skills</h3>
+                <h3 className="text-2xl font-medium text-blue-100">Skills</h3>
               </div>
               <div className="mt-[150px]">
                 <SkillSVG />
@@ -104,7 +103,7 @@ const Hero = () => {
             </div>
             <div>
               <div className="flex justify-center items-center mt-[200px]">
-                <h3 className="text-2xl font-thin text-blue-100">Projects</h3>
+                <h3 className="text-2xl font-medium text-blue-100">Projects</h3>
               </div>
               <div className="grid grid-cols-1 md: sm:flex mt-[100px]">
                 <AnimatedPinDemo />

@@ -7732,16 +7732,14 @@
     },
     {
       "type": "Feature",
-
       "properties": {
         "admin": "Mongolia",
         "name": "Mongolia",
         "continent": "Asia",
-        "color": "#FF5733"
+        "color": "#FF0000"
       },
       "geometry": {
         "type": "Polygon",
-
         "coordinates": [
           [
             [87.751264276076697, 49.297197984405479],
