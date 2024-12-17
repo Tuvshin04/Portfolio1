@@ -74,19 +74,6 @@ const Hero = () => {
                     words={words2}
                     className=" font-light tracking-widest text-xl  text-white max-w-80 lg:max-w-[400px] lg:flex lg:justify-start lg:flex-col lg:items-center"
                   />
-                  <div className="flex justify-center sm:justify-start md:justify-start gap-5 items-center   mt-[30px]">
-                    <div className="avatar">
-                      <div className="w-[50px] sm:w-[100px] rounded-full">
-                        <img src="https://scontent.fuln1-2.fna.fbcdn.net/v/t39.30808-6/275127400_134312249098201_6405380332560830456_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LRhNKtIUxaoQ7kNvgHGxRKg&_nc_zt=23&_nc_ht=scontent.fuln1-2.fna&_nc_gid=AEKsqvUstMYnACzzALBfujj&oh=00_AYBAJp2_CaXsrxkwBjd0J7eqsATHHKKreWlskVlYRd2qGw&oe=67676FAC" />
-                      </div>
-                    </div>
-                    <div className="border-2 w-[100px] sm:w-[200px] border-blue-500"></div>
-                    <div className="avatar">
-                      <div className="w-[50px] rounded-full sm:w-[100px]">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4CiTFpFgtgX6gfMv1ILNcPgDic__3g2ukVw&s" />
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div>
                   <Avatar />
