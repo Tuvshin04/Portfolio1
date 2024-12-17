@@ -77,7 +77,7 @@ const Hero = () => {
                   <div className="flex justify-center sm:justify-start md:justify-start gap-5 items-center   mt-[30px]">
                     <div className="avatar">
                       <div className="w-[50px] sm:w-[100px] rounded-full">
-                        <img src="https://instagram.fuln8-1.fna.fbcdn.net/v/t1.15752-9/462548464_1053133256078031_5498301594125719827_n.jpg?stp=dst-jpg_s403x403&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=pDyjVaztBdQQ7kNvgEIytmM&_nc_zt=23&_nc_ht=instagram.fuln8-1.fna&_nc_gid=ADxPwHg-K_2TZnBegNr6LKh&oh=03_Q7cD1QHpmjr8Gy_bZkpPQUz-iBl6bDCOFIdTV8Ku2iGLmOhTCw&oe=67350DD8" />
+                        <img src="https://scontent.fuln1-2.fna.fbcdn.net/v/t39.30808-6/275127400_134312249098201_6405380332560830456_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LRhNKtIUxaoQ7kNvgHGxRKg&_nc_zt=23&_nc_ht=scontent.fuln1-2.fna&_nc_gid=AEKsqvUstMYnACzzALBfujj&oh=00_AYBAJp2_CaXsrxkwBjd0J7eqsATHHKKreWlskVlYRd2qGw&oe=67676FAC" />
                       </div>
                     </div>
                     <div className="border-2 w-[100px] sm:w-[200px] border-blue-500"></div>
